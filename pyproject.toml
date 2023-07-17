@@ -14,3 +14,6 @@ python = "^3.11"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 # vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
+
+[tool.poetry.scripts]
+sample = "robust_python.sample:main"
