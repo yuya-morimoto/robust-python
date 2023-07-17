@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "robust-python"
+version = "0.1.0"
+description = "ロバストフルなPythonを書いてみる"
+authors = ["yuya-morimoto <my.hack.0312@gmail.com>"]
+readme = "README.md"
+packages = [{include = "robust_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
